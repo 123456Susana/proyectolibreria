@@ -1,0 +1,27 @@
+.fondo1{
+    background-color: black;
+}
+.fondo2{
+    background: rgb(12,17,54);
+    background: linear-gradient(0deg, rgba(12,17,54,1) 0%, rgba(0,0,0,1) 42%);
+}
+.videobanner{
+    margin: -10% 0 -10% 0;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.nav-link{
+    font-size: 20px;
+}
+.productos{
+    background-color:rgb(12,17,54);
+}
+.fuente{
+    font-family: 'Changa', sans-serif;
+}
+
+.fuente2{
+    font-size: 100px;
+}

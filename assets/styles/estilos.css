@@ -7,6 +7,10 @@
 }
 .videobanner{
     margin: -10% 0 -10% 0;
+    z-index: -1;
+}
+.navigator{
+    z-index: 1;
 }
 .logo{
     width: 100px;

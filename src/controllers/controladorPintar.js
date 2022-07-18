@@ -30,6 +30,11 @@ export function pintarProductos(productos){
         precio.classList.add("fw-bold")
         precio.textContent="$"+producto.precio+" COL"
 
+        //2.6 creamos la descripcion
+        let descripcion=document.createElement("p")
+        descripcion.classList.add("d-none")
+        descripcion.textContent=producto.descripcion
+
         //deteccion de mouse
         columna.addEventListener("mouseover", function(evento){
             foto.src=producto.fotos[1]
@@ -38,10 +43,11 @@ export function pintarProductos(productos){
             foto.src=producto.fotos[0]
         })
 
-        //PADRES E HIJOS (ORDEN DE JERARQUIAS)
+        //PADRES E HIJOS (ORDEN DE JERARQUIAS, quien va dentro de quien)
         tarjeta.appendChild(foto)
         tarjeta.appendChild(nombre)
         tarjeta.appendChild(precio)
+        tarjeta.appendChild(descripcion)
 
         columna.appendChild(tarjeta)
 

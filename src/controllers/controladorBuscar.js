@@ -1,5 +1,5 @@
 import { productosBD } from "../helpers/baseDatos.js"
-import { pintarProductos } from "./contorladorPintar.js"
+import { pintarProductos } from "./controladorPintar.js"
 export function buscarProductos(){
     //controlador el input donde escribe en usuario
     let buscador=document.getElementById("busqueda")

@@ -4,7 +4,7 @@ export let productosBD=[
         precio: 200000,
         cantidad: 0,
         fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/elpsicoanalista.jpg?alt=media&token=6f65352e-6264-4ad3-978a-b6ef0827ec9c', 'https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/juegosdeingenio.jpg?alt=media&token=8c8d76a7-b12a-4000-bc03-a7dddb6ea4f1'],
-        descripcion:''
+        descripcion:'juegosdeingenio,elpsicoanalista'
     }
     ,
     {
@@ -12,7 +12,7 @@ export let productosBD=[
         precio: 50000,
         cantidad: 0,
         fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/1408.jpg?alt=media&token=71086004-67d3-402d-925a-368597745aaa','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/cementeriodeanimales.jpg?alt=media&token=bcb56463-4e8f-4a84-b7d4-8d65eecd0789'],
-        descripcion:''
+        descripcion:'cementeriodeanimales'
     }
     ,
     {

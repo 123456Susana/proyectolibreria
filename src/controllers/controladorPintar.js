@@ -42,6 +42,9 @@ export function pintarProductos(productos){
         columna.addEventListener("mouseleave", function(evento){
             foto.src=producto.fotos[0]
         })
+        columna.addEventListener("click", function(evento){
+            foto.src=producto.fotos[0]
+        })
 
         //PADRES E HIJOS (ORDEN DE JERARQUIAS, quien va dentro de quien)
         tarjeta.appendChild(foto)

@@ -1,7 +1,6 @@
 //se utiliza LLAVES con el import para encajonar lo que viene
 //se traen los datos de los productos(consultar la bd)
 import { productosBD } from "../helpers/baseDatos.js"
-console.log(productosBD)
 
 //llamamos al metodo encargado de aplicar traversing y pintar la tienda
 import { pintarProductos } from "./controladorPintar.js"
@@ -13,7 +12,7 @@ import { buscarProductos } from "./controladorBuscar.js"
 buscarProductos()
 
 //escuchamos clic en el contenedor padre de la tienda
-import { ampliarInfoProducto } from "./crearProducto.js"
+import { ampliarInfoProducto } from "./controladorAmpliarInfo.js"
 let contenedor=document.getElementById("fila")
 contenedor.addEventListener("click", function(evento){
     let producto=ampliarInfoProducto(evento)

@@ -3,7 +3,7 @@ console.log("hola")
 console.log(  JSON.parse(localStorage.getItem("infoProducto")) )
 let producto = JSON.parse(localStorage.getItem("infoProducto"))
 
-let carrito
+let carrito=[]
 //revisar verificar si hay productos en el carrito
 if(JSON.parse(localStorage.getItem("carrito"))==null){
     //creamos el carrito de compras

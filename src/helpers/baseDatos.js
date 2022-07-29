@@ -59,7 +59,7 @@ export let productosBD=[
         nombre:'Mario Mendoza',
         precio: 80000,
         cantidad: 0,
-        fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/ladymasacre.jpg?alt=media&token=381b2450-2c7a-491f-b4d0-a86b584372b2','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/satanas.jpg?alt=media&token=1d974805-f346-4c64-a7ef-ba49e8f04efc'],
+        fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/satanas.jpg?alt=media&token=1d974805-f346-4c64-a7ef-ba49e8f04efc','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/ladymasacre.jpg?alt=media&token=381b2450-2c7a-491f-b4d0-a86b584372b2'],
         descripcion:''
     }
     ,
@@ -76,6 +76,54 @@ export let productosBD=[
         precio: 85000,
         cantidad: 0,
         fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/mientrasmipreciosaduerme.jpg?alt=media&token=72704064-dec7-4e07-bf6b-cab2e7043af4','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/ungritoenlanoche.jpg?alt=media&token=f5a19f25-f80b-4cdf-8373-3d9a4768c972'],
+        descripcion:''
+    }
+    ,
+    {
+        nombre:'H.Phillips Lovecraft',
+        precio: 85000,
+        cantidad: 0,
+        fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/losmitosdecthulhu.webp?alt=media&token=044f016b-de30-47fd-98cc-ba3ccb2121ea','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/laciudadsinnombre.jpg?alt=media&token=e6917be3-b1e1-4e61-8c89-c00b127d6acf'],
+        descripcion:''
+    }
+    ,
+    {
+        nombre:'Shirley Jackson',
+        precio: 85000,
+        cantidad: 0,
+        fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/lamaldiciondehillhouse.jpg?alt=media&token=5da5a38c-45ea-4713-bb16-20aaa62b9da3','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/laloteria.jpg?alt=media&token=3abc48b5-43e8-4c91-8b81-74cda318377d'],
+        descripcion:''
+    }
+    ,
+    {
+        nombre:'Peter Straub',
+        precio: 85000,
+        cantidad: 0,
+        fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/perdidos.jpg?alt=media&token=ee888f9a-5b77-4a45-ac10-d2595f87210b','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/ghoststory.webp?alt=media&token=4f823967-0f88-47ac-a32e-64a1bf54d994'],
+        descripcion:''
+    }
+    ,
+    {
+        nombre:'Brian Lumley',
+        precio: 85000,
+        cantidad: 0,
+        fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/elquehablaconlosmuertos.jpg?alt=media&token=c26d852c-534d-4fa8-860b-f74ab32d5f51','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/ellenguajedelosmuertos.jpg?alt=media&token=c2d4b77a-e509-4d6a-a196-78f89b081127'],
+        descripcion:''
+    }
+    ,
+    {
+        nombre:'Algernon Blackwood',
+        precio: 85000,
+        cantidad: 0,
+        fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/losauces.jpg?alt=media&token=c7620302-4b70-4715-81aa-b3319f3d1e11','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/elwendigo.webp?alt=media&token=fb7881ce-9ece-4020-8541-f7a84a42904a'],
+        descripcion:''
+    }
+    ,
+    {
+        nombre:'Clive Barker',
+        precio: 85000,
+        cantidad: 0,
+        fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/thescarletgospels.webp?alt=media&token=5e2cb604-a822-40c5-bb28-bd1ff564186e','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/hellraiser.webp?alt=media&token=e9e38796-778f-4204-9792-1d51d25a2731'],
         descripcion:''
     }
 ]

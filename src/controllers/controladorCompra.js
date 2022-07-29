@@ -1,3 +1,4 @@
+import {pintar} from "./controladorPintarInfoProducto.js"
 console.log("hola")
 console.log(  JSON.parse(localStorage.getItem("infoProducto")) )
 let producto = JSON.parse(localStorage.getItem("infoProducto"))
@@ -13,19 +14,8 @@ if(JSON.parse(localStorage.getItem("carrito"))==null){
 
 console.log(JSON.parse(localStorage.getItem("carrito")))
 
-//pintamos la foto desde el objeto del local storage
+pintar(producto)
 
-let foto= document.getElementById("foto")
-foto.src=producto.foto
-
-let titulo=document.getElementById("titulo")
-titulo.textContent=producto.nombre
-
-let valor=document.getElementById("valor")
-valor.textContent=producto.precio
-
-let descripcion=document.getElementById("descripcion")
-descripcion.textContent=producto.descripcion
 
 //capturar la cantidad del producto seleccionado
 //value del input
@@ -34,8 +24,16 @@ descripcion.textContent=producto.descripcion
 //la que es la variable es la cantidad despues del igual
 let botonAgregar = document.getElementById("agregar")
 
-
+//se agrega producto al carrito
 botonAgregar.addEventListener("click",function(evento){
+
+    let alerta=document.getElementById("alerta")
+    alerta.classList.remove("invisible")
+
+    setTimeout(function(){
+        alerta.classList.add("invisible")
+    },3000)
+
     let cantidad= document.getElementById("cantidad").value
     producto.cantidad=cantidad
 

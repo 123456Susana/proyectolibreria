@@ -25,5 +25,5 @@ contenedor.addEventListener("click", function(evento){
     console.log(localStorage.getItem("infoProducto"))
 
     //abro nueva ventana
-    window.location.href="./src/views/ampliarInfo.html"
+    window.location.href="./ampliarInfo.html"
 })

@@ -1,14 +1,4 @@
-.fondo1{
-    background-color: black;
-}
-.fondo2{
-    background: rgb(12,17,54);
-    background: linear-gradient(0deg, rgba(12,17,54,1) 0%, rgba(0,0,0,1) 42%);
-}
-.videobanner{
-    margin: -10% 0 -10% 0;
-    z-index: -1;
-}
+
 .navigator{
     z-index: 1;
 }
@@ -20,7 +10,8 @@
     font-size: 20px;
 }
 .productos{
-    background-color:rgb(12,17,54);
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(126,2,2,1) 50%, rgba(0,0,0,1) 100%);
 }
 .fuente{
     font-family: 'Changa', sans-serif;

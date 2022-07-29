@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Libreria</title>
-    <!-- CSS only -->
+    <title>Productos Libreria</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -16,8 +16,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     
-    <link rel="stylesheet" href="./assets/styles/estilos.css">
-    
+    <link rel="stylesheet" href="../../assets/styles/estilosProductos.css">
 </head>
 <body class="fuente">
 
@@ -34,7 +33,7 @@
         </symbol>
       </svg>
 
-    <header>
+      <header>
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark navigator">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img class="logo" src="../../assets/img/laguna.png" alt=""></a>
@@ -44,16 +43,16 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="../../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./src/views/productos.html">Productos</a>
+                    <a class="nav-link active" href="./productos.html">Productos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./src/views/ampliarInfo.html">Compra</a>
+                    <a class="nav-link" href="./ampliarInfo.html">Compra</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled">Preguntas Frecuentes</a>
+                    <a class="nav-link disabled" href="">Preguntas Frecuentes</a>
                   </li>
                 </ul>
 
@@ -67,94 +66,29 @@
                     </a>
                   </li>
                 </ul>
-                
+
               </div>
             </div>
           </nav>
     </header>
 
-    <main>
-
-        <section class="fondo1">
-            <video class="w-100 videobanner" src="./assets/video/Books.mp4" muted autoplay loop></video>
-        </section>
-
-        <section class="fondo2">
-          <div class="container-fluid text-white">
-            <div class="row">
-              <div class="col-12 text-center my-3">
-                <h1 class="text-center mb-4 tituloprincipal"><br> Laguna: Biblioteca Virtual</h1>
-              </div>
+    <section class="productos ">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 my-3">
+              <input id="busqueda" type="search" class="form-control" placeholder="Buscar">
             </div>
-              <div class="row mb-5 text-white justify-content-center">
-                  
-                  <div class="col-4 text-center mt-5 align-self-center">
-                      <h3>SUMERGETE EN UN MUNDO DE FANTASIA</h3>
-                      <h4>Encuentra en tu biblioteca virtual Laguna los libros de tus autores favoritos al mejor precio</h4>
-                      <h4 class="mt-4">Crea tu cuenta y vive una experiencia única</h4>
-                      <button class="btn btn-primary mt-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
-                          <i class="bi bi-box-arrow-in-right"></i>
-                          Crear Cuenta
-                      </button>
-                  </div>
-                  <div class="col-6">
-                      <img class="img-fluid w-100" src="./assets/img/imagenpromo4.webp" alt="foto">
-                  </div>
-              </div>
-              <div class="row">
-              </div>
           </div>
+          <div class="row row-cols-1 row-cols-md-4 g-3 " id="fila">
+
+          </div>
+        </div>
       </section>
-
-        <section>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title text-center" id="offcanvasExampleLabel">Para comprar libros, agregar favoritos, ver el historial y acceder a otros servicios, debe crear una <b>cuenta gratis</b> como lector.</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="container">
-                  <form class="row g-3 mt-3">
-                    <div class="col-12">
-                      <input type="text" name="nombresapellidos" class="form-control" id="nombresapellidos" placeholder="Nombres y Apellidos">
-                    </div>
-                    <div class="col-12">
-                      <input type="email" name="email" class="form-control" id="email" placeholder="Correo electronico">
-                    </div>
-                    <div class="col-12">
-                      <input type="email" name="email" class="form-control" id="email" placeholder="Confirmar correo electrónico">
-                    </div>
-                    <div class="col-12">
-                      <input type="email" name="email" class="form-control" id="email" placeholder="Contraseña">
-                    </div>
-                    <div class="col-12">
-                      <input type="email" name="email" class="form-control" id="email" placeholder="Confirmar contraseña">
-                    </div>
-
-                    <div class="row mt-3">
-                      <div class="col">
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                          <label class="form-check-label" for="flexCheckDefault">
-                           <b>Acepto los términos y condiciones</b> 
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <button class="btn btn-primary" type="submit">Enviar</button>
-                    </div>
-
-                  </form>
-                </div>
-              </div>
-        </section>
-
-    </main>
 
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-0 border-top">   
         <div class="col-md-4 d-flex align-items-center">
           <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-            <img class="logo" src="./assets/img/laguna.png" alt="Logo Biblioteca Laguna">
+            <img class="logo" src="../../assets/img/laguna.png" alt="Logo Biblioteca Laguna">
           </a>
           <span class="mb-3 mb-md-0 text-muted">&copy; 2022 <b>Laguna: Biblioteca Virtual</b>  - Todos los Derechos Reservados.</span>
         </div>
@@ -165,14 +99,15 @@
         </div>
     
         <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
-          <p>Síguenos:</p>
+            <p>Síguenos:</p>
           <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
           <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
           <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
         </ul>
     </footer>
-  
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="..//controllers/controladorTienda.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     
 </body>
 </html>

@@ -12,4 +12,5 @@ valor.textContent=producto.precio
 
 let descripcion=document.getElementById("descripcion")
 descripcion.textContent=producto.descripcion
+
 }

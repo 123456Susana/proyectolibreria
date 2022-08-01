@@ -39,9 +39,19 @@ botonAgregar.addEventListener("click",function(evento){
 
     //agregando un nuevo elemento a un arreglo
     //agregando un producto al carrito de compras
+    //push agrega un elemento a un arreglo, en este caso carrito es un arreglo [{},{}]
     carrito.push(producto)
 
     //almaceno el carrito en localstorage
     localStorage.setItem("carrito",JSON.stringify(carrito))
+
+    //recorriendo un arreglo
+    carrito.forEach(function(producto){
+
+        let suma=0
+        suma=suma+producto
+
+        console.log(suma)
+    })
 
 })

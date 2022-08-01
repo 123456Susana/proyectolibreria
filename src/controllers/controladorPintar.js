@@ -28,7 +28,7 @@ export function pintarProductos(productos){
         //2.5 creamos el precio
         let precio=document.createElement("h2")
         precio.classList.add("fw-bold")
-        precio.textContent="$"+producto.precio+" COL"
+        precio.textContent= producto.precio
 
         //2.6 creamos la descripcion
         let descripcion=document.createElement("p")
@@ -55,5 +55,6 @@ export function pintarProductos(productos){
         columna.appendChild(tarjeta)
 
         fila.appendChild(columna)
+
     })
 }

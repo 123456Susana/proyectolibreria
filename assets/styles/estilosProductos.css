@@ -25,3 +25,9 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(126,2,2,1) 50%, rgba(
     font-size: 80px;
     font-weight: bold;
 }
+
+.registro{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bolder;
+}

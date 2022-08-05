@@ -45,13 +45,30 @@ botonAgregar.addEventListener("click",function(evento){
     //almaceno el carrito en localstorage
     localStorage.setItem("carrito",JSON.stringify(carrito))
 
+    
+
     //recorriendo un arreglo
+    let suma=0
     carrito.forEach(function(producto){
 
-        let suma=0
-        suma=suma+producto
+        suma=(suma+Number(producto.cantidad))
 
-        console.log(suma)
+        localStorage.setItem("suma", suma)
+
+        let contadorDeProductos=localStorage.getItem("suma")
+        document.getElementById("suma").innerHTML=Number(contadorDeProductos)
+
+        console.log(contadorDeProductos)
+   
     })
+    
+ })
+    
+ //se llama el local storage para en contador de carrito
+let contadorDeProductos=localStorage.getItem("suma")
+document.getElementById("suma").innerHTML=Number(contadorDeProductos)
 
-})
+
+
+       
+

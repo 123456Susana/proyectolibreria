@@ -1,4 +1,4 @@
-export function pintarResumenCompra(fotoURL,nombreMensaje, banderaBoton, banderaPrecio, precioProducto, banderaCantidad,cantidadProducto, banderaSubtotal, subtotalProducto){
+export function pintarResumenCompra(fotoURL,nombreMensaje, banderaBoton, banderaPrecio, precioProducto, banderaCantidad,cantidadProducto,banderaSubtotal, subtotalProducto){
 
     //crear una referencia para almacenar el contenedor
     let contenedor=document.getElementById("contenedor")
@@ -25,13 +25,15 @@ export function pintarResumenCompra(fotoURL,nombreMensaje, banderaBoton, bandera
     boton.setAttribute("href", "./productos.html")
 
     let precio=document.createElement("h2")
-    precio.textContent="Precio Und: "+precioProducto
+    precio.textContent= "Precio Und: $ "+precioProducto
+    
 
     let cantidad=document.createElement ("h2")
     cantidad.textContent="Cantidad:  "+cantidadProducto
 
     let subtotal=document.createElement ("h3")
-    subtotal.textContent="Subtotal: "+subtotalProducto
+    subtotal.textContent= "Subtotal: $ "+subtotalProducto
+
 
     //jerarquia
     columna1.appendChild(foto)

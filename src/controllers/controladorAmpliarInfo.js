@@ -9,8 +9,8 @@ export function ampliarInfoProducto(evento){
         nombre: evento.target.parentElement.querySelector("h3").textContent,
         precio: evento.target.parentElement.querySelector("h2").textContent,
         descripcion: evento.target.parentElement.querySelector("p").textContent,
+        popularidad: evento.target.parentElement.querySelector("h5").textContent,
     }
     return(producto)
-
 
 }

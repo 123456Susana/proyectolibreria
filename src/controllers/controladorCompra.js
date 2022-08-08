@@ -14,7 +14,11 @@ if(JSON.parse(localStorage.getItem("carrito"))==null){
 
 console.log(JSON.parse(localStorage.getItem("carrito")))
 
+
+
 pintar(producto)
+
+
 
 
 //capturar la cantidad del producto seleccionado

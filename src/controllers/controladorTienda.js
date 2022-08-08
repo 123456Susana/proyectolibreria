@@ -15,17 +15,21 @@ buscarProductos()
 import { ampliarInfoProducto } from "./controladorAmpliarInfo.js"
 let contenedor=document.getElementById("fila")
 contenedor.addEventListener("click", function(evento){
-    let producto=ampliarInfoProducto(evento)
-    console.log(producto)
 
-    //ALMACENAR EN EL localStorage LA INFORMACION DEL PRODUCTO SELECCIONADO
-    //se pone JSON.stringify  para que en la consola no aparezca
-    //object, si no que nos muestre toda la info del objeto
-    localStorage.setItem("infoProducto",JSON.stringify(producto))
-    console.log(localStorage.getItem("infoProducto"))
+    if(evento.target.parentElement.classList.contains("card") == true){
+        let producto=ampliarInfoProducto(evento)
+        //console.log(producto)
 
-    //abro nueva ventana
-    window.location.href="./ampliarInfo.html"
+        //ALMACENAR EN EL localStorage LA INFORMACION DEL PRODUCTO SELECCIONADO
+        //se pone JSON.stringify  para que en la consola no aparezca
+        //object, si no que nos muestre toda la info del objeto
+        localStorage.setItem("infoProducto",JSON.stringify(producto))
+        //console.log(localStorage.getItem("infoProducto"))
+
+        //abro nueva ventana
+        window.location.href="./ampliarInfo.html"
+    }
+
 })
 
 

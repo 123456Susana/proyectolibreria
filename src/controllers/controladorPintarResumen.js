@@ -25,8 +25,7 @@ export function pintarResumenCompra(fotoURL,nombreMensaje, banderaBoton, bandera
     boton.setAttribute("href", "./productos.html")
 
     let precio=document.createElement("h2")
-    precio.textContent= "Precio Und: $ "+precioProducto
-    
+    precio.textContent= "Valor Unitario: $"+precioProducto
 
     let cantidad=document.createElement ("h2")
     cantidad.textContent="Cantidad:  "+cantidadProducto

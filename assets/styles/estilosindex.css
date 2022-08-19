@@ -1,0 +1,94 @@
+body{
+    font-family: 'Changa', sans-serif;
+    font-size: 20px;
+}
+
+
+.navbar{
+    background-color: rgb(248, 248, 248);
+    margin-top: -20px;
+}
+
+.nav-link{
+    color: rgb(2, 0, 0);
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+.bi{
+    color: rgb(7, 7, 7);
+}
+
+.social{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon{
+    color: black;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook{
+    background-color: white;
+    border-radius: 0 0 0 1rem;
+}
+.icon-twitter{
+    background-color: white;
+    border-radius: 1rem 0 0 0;
+}
+.icon-instagram{
+    background: white;
+}
+
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+    color: black;
+}
+
+.fondo2{
+    background: rgb(12,17,54);
+    background: linear-gradient(0deg, rgba(12,17,54,1) 0%, rgba(0,0,0,1) 42%);
+}
+
+  .footer{
+    background-color: rgb(255, 255, 255);
+    color: #080806;
+    font-size: 17px;
+  }
+
+  .iconofoot{
+    color: rgb(0, 0, 0)
+  }
+
+  .videobanner{
+    margin: -10% 0 -10% 0;
+    z-index: -1;
+}
+
+.navigator{
+    z-index: 1;
+}
+
+.footer2{
+    background-color: rgb(198, 202, 206);
+}
+
+.tituloprincipal{
+    font-size: 80px;
+}
+

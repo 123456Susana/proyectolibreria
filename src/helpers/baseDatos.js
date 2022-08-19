@@ -84,7 +84,7 @@ export let productosBD=[
         precio: 85000,
         cantidad: 0,
         fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/lacaidadelacasausher.webp?alt=media&token=e4bff517-fc04-4321-aa7a-5164f9c464ca','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/loscrimenesdelacallemorgue.jpg?alt=media&token=f8ff3683-1070-485e-a807-4985ad85e017'],
-        descripcion:'',
+        descripcion:'La caida de la casa usher, Los crimenes de la calle morgue ',
         subtotal:0,
         popularidad:4
     }
@@ -94,7 +94,7 @@ export let productosBD=[
         precio: 75500,
         cantidad: 0,
         fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/mientrasmipreciosaduerme.jpg?alt=media&token=72704064-dec7-4e07-bf6b-cab2e7043af4','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/ungritoenlanoche.jpg?alt=media&token=f5a19f25-f80b-4cdf-8373-3d9a4768c972'],
-        descripcion:'',
+        descripcion:'Mientras mi preciosa duerme, Un grito en la noche',
         subtotal:0,
         popularidad:2
     }
@@ -104,7 +104,7 @@ export let productosBD=[
         precio: 67000,
         cantidad: 0,
         fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/losmitosdecthulhu.webp?alt=media&token=044f016b-de30-47fd-98cc-ba3ccb2121ea','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/laciudadsinnombre.jpg?alt=media&token=e6917be3-b1e1-4e61-8c89-c00b127d6acf'],
-        descripcion:'',
+        descripcion:'Los mitos de cthulhu, La ciudad sin nombre',
         subtotal:0,
         popularidad:4
     }
@@ -114,7 +114,7 @@ export let productosBD=[
         precio: 51400,
         cantidad: 0,
         fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/lamaldiciondehillhouse.jpg?alt=media&token=5da5a38c-45ea-4713-bb16-20aaa62b9da3','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/laloteria.jpg?alt=media&token=3abc48b5-43e8-4c91-8b81-74cda318377d'],
-        descripcion:'',
+        descripcion:'La maldicion de hill house, La loteria',
         subtotal:0,
         popularidad:3
     }
@@ -124,7 +124,7 @@ export let productosBD=[
         precio: 81000,
         cantidad: 0,
         fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/perdidos.jpg?alt=media&token=ee888f9a-5b77-4a45-ac10-d2595f87210b','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/ghoststory.webp?alt=media&token=4f823967-0f88-47ac-a32e-64a1bf54d994'],
-        descripcion:'',
+        descripcion:'Perdidos, Ghost story',
         subtotal:0,
         popularidad:4
     }
@@ -134,7 +134,7 @@ export let productosBD=[
         precio: 67200,
         cantidad: 0,
         fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/elquehablaconlosmuertos.jpg?alt=media&token=c26d852c-534d-4fa8-860b-f74ab32d5f51','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/ellenguajedelosmuertos.jpg?alt=media&token=c2d4b77a-e509-4d6a-a196-78f89b081127'],
-        descripcion:'',
+        descripcion:'El que habla con los muertos, El lenguaje de los muertos',
         subtotal:0,
         popularidad:4
     }
@@ -144,7 +144,7 @@ export let productosBD=[
         precio: 59222,
         cantidad: 0,
         fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/losauces.jpg?alt=media&token=c7620302-4b70-4715-81aa-b3319f3d1e11','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/elwendigo.webp?alt=media&token=fb7881ce-9ece-4020-8541-f7a84a42904a'],
-        descripcion:'',
+        descripcion:'Los Auces, El Wendigo',
         subtotal:0,
         popularidad:3
     }
@@ -154,7 +154,7 @@ export let productosBD=[
         precio: 85692,
         cantidad: 0,
         fotos:['https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/thescarletgospels.webp?alt=media&token=5e2cb604-a822-40c5-bb28-bd1ff564186e','https://firebasestorage.googleapis.com/v0/b/saltiendatcc.appspot.com/o/hellraiser.webp?alt=media&token=e9e38796-778f-4204-9792-1d51d25a2731'],
-        descripcion:'',
+        descripcion:'The scarlet gospels, Hell raiser ',
         subtotal:0,
         popularidad:4
     }
